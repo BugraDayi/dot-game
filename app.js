@@ -22,7 +22,7 @@ var BULLET_DOWN = 4;
 var walls = [];
 
 process.argv.forEach(function (val, index, array) {
-  if (val == "hardcore") {
+  if (val === "hardcore") {
     BULLET_DAMAGE = 100;
     BULLET_DOWN = 20;
   }
